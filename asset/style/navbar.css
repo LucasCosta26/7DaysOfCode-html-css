@@ -1,0 +1,82 @@
+a{
+    text-decoration: none;
+    color:gray ;
+    cursor: pointer;
+    
+}
+button{
+    cursor: pointer;
+}
+
+.cabeca{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 112px;
+    height: 80px;
+}
+.cabeca__direita{
+    display: flex;
+    align-items: center;
+}
+.cabeca__logo{
+    padding-right: 8px;
+}
+.cabeca__nome{
+    font-size: 18px;
+}
+
+.dropdown ul {
+    padding: 0;
+   
+}
+.dropdown ul li {
+    display: inline;
+    position: relative;
+}
+
+.dropdown ul li a {
+    
+    display: inline-block;
+    padding: 10px;
+    transition: .3s;
+}
+
+.dropdown ul li a:hover {
+    background-color: rgba(115, 115, 115, 0.159);
+}
+
+/*sub menu*/
+.dropdown ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dropdown ul li:hover ul {
+    display: block;
+}
+
+.dropdown ul ul {
+    width: 100px
+}
+
+.dropdown ul ul li a {
+    display: block;
+}
+
+/* botoes */    
+.btn__entrar{
+    width: 83px;
+    height: 44px;
+    border: none;
+    background-color: white;
+    color: gray;
+}
+.btn__cadastro{
+    width: 112px;
+    height: 44px;
+    border-radius: 8px;
+    color: white;
+    background-color: #8E2424;
+}

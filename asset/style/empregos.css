@@ -1,0 +1,10 @@
+.empregos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vaga{
+    background-color: var(--roxo-claro);
+    border-radius: 16px;
+
+}
