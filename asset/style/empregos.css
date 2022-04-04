@@ -1,10 +1,85 @@
-.empregos{
+.image{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
 }
+.chamada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.chamada >h2  {
+    margin-bottom: 1rem;
+}
+.chamada>p{
+text-align: center;}
 .vaga{
     background-color: var(--roxo-claro);
     border-radius: 16px;
+    margin-bottom:  1rem; 
+
+}
+.imagem{
+    max-width: 100vw;
+    margin: 2rem;
+}
+.empregos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin: 0 1rem;
+}
+
+.area{
+padding: 2rem 0;
+
+}
+.area__tipo{
+border: 1px solid rgba(0, 0, 0, 0.198);
+border-radius: 15px;
+padding: 1rem;
+width: 280px;
+height: 80px;
+margin-bottom: 1rem;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.area__tipo>p{
+    font-weight:500 ;
+}
+.area__hora{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+@media screen and (min-width:730px) {
+    .empregos{
+       
+        margin: 0 100px;
+    }
+    
+   
+    .area__tipo{
+   
+    width: 480px;
+    height: 100px;
+   
+    }
+  
+}
+@media screen and (min-width: 1024px) {
+
+.empregos{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 300px;
+}
 
 }

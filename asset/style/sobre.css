@@ -1,13 +1,12 @@
 /* Seção quem somos */
 
+    
 .sobre{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
-    padding: 100px 0;
-    
+    margin-bottom: 100px;
 }
 .sobre span{
     font-weight: 400;
@@ -16,15 +15,48 @@
 }
 .sobre h1{
     font-weight: 600;
+    font-size: 2.25rem;
+    padding-bottom: 3rem;
+    text-align: center;
+
+}
+.sub{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;    
+   
+}
+@media screen and (min-width:730px) {
+    .sobre span{
+       
+        font-size: 1.25rem;
+
+    }
+    .sobre h1{
+        font-size: 2rem;
+    
+    }
+    .sub{
+        font-size: 1.25rem;    
+       
+    }
+
+}
+@media screen and (min-width:1024px) {
+    
+
+  
+
+.sobre h1{
+    font-weight: 600;
     font-size: 48px;
     padding-bottom: 3rem;
 
 }
 .sub{
-    font-size: 20px;
-    font-weight: 400;
+   
     text-align: center;
     width: 790px;
     padding-bottom: 6.25rem;
 
-}
+}}

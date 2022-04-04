@@ -1,32 +1,93 @@
 .metricas{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
-   
-   
-
-    padding: 0 7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   padding: 0 1rem;
+    gap: 0.7rem;
 }
 .quadros{
-    margin: 0 1rem;
-   
-    
+   padding: 8px;
+    border: 1px solid var(--roxo);
+    border-radius: 15px;
 }
 
 .numeros{
     color: var(--roxo);
-    font-size: 3.75rem;
+    font-size: 1.75rem;
     font-weight: 600;
-    padding-bottom: 1rem;
+    padding-bottom: 0.33rem;
 }
 .item1{
-    font-size: 1.12rem;
+    font-size: 0.7rem;
     font-weight: 500;
-    padding-bottom: 0.8rem;
+    padding-bottom: 0.3rem;
 }
 .item2{
-    font-size: 1rem;
+    font-size: 0.5rem;
     font-weight: 400;
+}
+
+
+ @media screen and (min-width:730px) {
+    .metricas{
+          
+    
+        
+    }
+    .quadros{
+        margin: 0 1rem;
+       
+        
+    }
+    
+    .numeros{
+        color: var(--roxo);
+        font-size: 3.75rem;
+        font-weight: 600;
+        padding-bottom: 1rem;
+    }
+    .item1{
+        font-size: 1.12rem;
+        font-weight: 500;
+        padding-bottom: 0.8rem;
+    }
+    .item2{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+} 
+
+
+@media screen and (min-width: 1024px) {
+    .metricas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+       
+       
+    
+        padding: 0 7rem;
+    }
+    .quadros{
+        margin: 0 1rem;
+       
+        
+    }
+    
+    .numeros{
+        color: var(--roxo);
+        font-size: 3.75rem;
+        font-weight: 600;
+        padding-bottom: 1rem;
+    }
+    .item1{
+        font-size: 1.12rem;
+        font-weight: 500;
+        padding-bottom: 0.8rem;
+    }
+    .item2{
+        font-size: 1rem;
+        font-weight: 400;
+    }
 }

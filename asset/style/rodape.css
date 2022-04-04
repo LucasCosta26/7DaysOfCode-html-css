@@ -1,0 +1,32 @@
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+    background-color: #f9fafb;
+}
+.p1{
+font-weight: 600;
+font-size: 1.5rem;
+padding-bottom: 1.25rem;
+text-align: center;
+}
+.p2{
+    text-align: center;
+    font-weight: 400;
+font-size: 1rem;
+padding-bottom: 2rem;
+}
+.email{
+    text-align: center;
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+.p3{
+    font-weight: 400;
+    text-align: center;
+    font-size: 0.5rem;
+    padding-bottom: 2rem;
+}

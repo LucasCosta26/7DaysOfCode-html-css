@@ -12,71 +12,222 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:0 112px;
+    padding:0 1rem;
     height: 80px;
 }
+/* lado com o logo e link */
 .cabeca__direita{
     display: flex;
     align-items: center;
 }
 .cabeca__logo{
-    padding-right: 8px;
+    padding-right: 0.2rem;
 }
 .cabeca__nome{
-    font-size: 18px;
+    font-size: 1rem;
 }
+/* parte central, menu navegação */
+.dropdown{
+    display: none;
+}
+.dropdown__500px{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7.25rem;
+}
+.menu__dropdown-500px{
+    display: flex;
 
-.dropdown ul {
+}
+.menu__dropdown-500px ul {
     padding: 0;
    
 }
-.dropdown ul li {
+.menu__dropdown-500px ul li {
     display: inline;
     position: relative;
 }
 
-.dropdown ul li a {
+.menu__dropdown-500px ul li a {
     
     display: inline-block;
     padding: 10px;
     transition: .3s;
 }
 
-.dropdown ul li a:hover {
+.menu__dropdown-500px ul li a:hover {
     background-color: rgba(115, 115, 115, 0.159);
 }
 
 /*sub menu*/
-.dropdown ul ul {
+.menu__dropdown-500px ul ul {
     display: none;
     left: 0;
     position: absolute;
 }
 
-.dropdown ul li:hover ul {
+.menu__dropdown-500px ul li:hover ul {
     display: block;
 }
 
-.dropdown ul ul {
+.menu__dropdown-500px ul ul {
     width: 100px
 }
 
-.dropdown ul ul li a {
+.menu__dropdown-500px ul ul li a {
     display: block;
 }
 
 /* botoes */    
 .btn__entrar{
-    width: 83px;
-    height: 44px;
+    width: 5rem;
+    height: 2.5rem;
     border: none;
     background-color: white;
     color: gray;
 }
 .btn__cadastro{
-    width: 112px;
-    height: 44px;
+    width: 6.5rem;
+    height: 2.5rem;
     border-radius: 8px;
     color: white;
     background-color: #8E2424;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:730px) {
+
+    
+    .cabeca{
+  
+        padding:0 2rem;
+       
+        margin-bottom: 7.25rem;
+
+    }
+   
+    .dropdown{
+        display: inline;
+        font-size: 0.7rem;
+    }    
+    .dropdown__500px{
+        display: none;}
+    .dropdown ul {
+        padding: 0;
+       
+    }
+    .dropdown ul li {
+        display: inline;
+        position: relative;
+    }
+    
+    .dropdown ul li a {
+        
+        display: inline-block;
+        padding: 10px;
+        transition: .3s;
+    }
+    
+    .dropdown ul li a:hover {
+        background-color: rgba(115, 115, 115, 0.159);
+    }
+    
+    /*sub menu*/
+    .dropdown ul ul {
+        display: none;
+        left: 0;
+        position: absolute;
+    }
+    
+    .dropdown ul li:hover ul {
+        display: block;
+    }
+    
+    .dropdown ul ul {
+        width: 100px
+    }
+    
+    .dropdown ul ul li a {
+        display: block;
+    }
+    
+    /* botoes */    
+    .btn__entrar{
+        width: 4rem;
+        height: 2.5rem;
+       
+    }
+    .btn__cadastro{
+        width: 5rem;
+        height: 2.5rem;
+        
+    }
+}
+@media screen and (min-width:1024px) {
+    .cabeca{
+        padding:0 112px;
+        margin-bottom: 7.25rem;
+    }
+   .dropdown{
+       font-size: 1rem;
+   }
+       .dropdown__500px{
+        display: none;}
+    .dropdown ul {
+        padding: 0;
+       
+    }
+    .dropdown ul li {
+        display: inline;
+        position: relative;
+    }
+    
+    .dropdown ul li a {
+        
+        display: inline-block;
+        padding: 10px;
+        transition: .3s;
+    }
+    
+    .dropdown ul li a:hover {
+        background-color: rgba(115, 115, 115, 0.159);
+    }
+    
+    /*sub menu*/
+    .dropdown ul ul {
+        display: none;
+        left: 0;
+        position: absolute;
+    }
+    
+    .dropdown ul li:hover ul {
+        display: block;
+    }
+    
+    .dropdown ul ul {
+        width: 100px
+    }
+    
+    .dropdown ul ul li a {
+        display: block;
+    }
+    
+    /* botoes */    
+    .btn__entrar{
+        width: 4rem;
+        height: 2.5rem;
+       
+    }
+    .btn__cadastro{
+        width: 5rem;
+        height: 2.5rem;
+        
+    }
 }
